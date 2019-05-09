@@ -20,7 +20,7 @@ export function createNote(note, laneId) {
 export function updateNote(note) {
   return {
     type: UPDATE_NOTE,
-    note
+    note,
   };
 }
 
@@ -28,6 +28,6 @@ export function deleteNote(noteId, laneId) {
   return {
     type: DELETE_NOTE,
     noteId,
-    laneId
+    laneId,
   };
 }
